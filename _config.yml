@@ -17,21 +17,39 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-
 title: Louis P Lukas
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Personal website
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+email: lukasl@ethz.ch
+description: Personal website.
+baseurl: ""
+url: "https://lplukas.com"
+github_username: loupl
 
 # Build settings
-# theme: minima
 remote_theme: eliottvincent/bay
-# plugins:
-#   - jekyll-feed
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+
+# Page content
+header:
+  pages:
+    - name: Home
+      slug: /     # <-- index.md
+    - name: About  # <-- blog.md
+
+footer:
+  show_powered_by: true
+  contact:
+    - type: email
+      name: lukasl[at]ethz.ch
+      value: lukasl@ethz.ch
+  follow:
+    - type: linkedin
+      name: LinkedIn
+      link: http://linkedin.com/in/lplukas
+    - type: github
+      name: GitHub
+      link: http://github.com/loupl
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -52,24 +70,3 @@ remote_theme: eliottvincent/bay
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-header:
-  pages:
-    - name: Home
-      slug: /     # <-- index.md
-    - name: Blog  # <-- blog.md
-    - name: Whatever  # <-- whatever.md
-
-footer:
-  show_powered_by: true
-  contact:
-    - type: email
-      name: Email
-      value: yourmail@domain.com
-  follow:
-    - type: linkedin
-      name: LinkedIn
-      link: http://linkedin.com/in/YourLinkedInUsername
-    - type: github
-      name: GitHub
-      link: http://github.com/YourGitHubUsername
