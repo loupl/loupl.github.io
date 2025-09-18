@@ -25,8 +25,8 @@ url: "https://lplukas.com"
 github_username: loupl
 
 # Build settings
-# remote_theme: eliottvincent/bay
-theme: bay_jekyll_theme
+remote_theme: eliottvincent/bay
+# theme: bay_jekyll_theme
 plugins:
   # - jekyll-remote-theme
   - jekyll-feed
