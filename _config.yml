@@ -25,18 +25,17 @@ url: "https://lplukas.com"
 github_username: loupl
 
 # Build settings
-remote_theme: eliottvincent/bay
-# theme: bay_jekyll_theme
+theme: bay_jekyll_theme
 plugins:
-  # - jekyll-remote-theme
   - jekyll-feed
 
 # Page content
 header:
   pages:
-    - name: Home
-      slug: /     # <-- index.md
-    - name: About  # <-- blog.md
+    - name: home
+      slug: / # <-- index.md
+    - name: projects
+    - name: about
 
 footer:
   show_powered_by: true
