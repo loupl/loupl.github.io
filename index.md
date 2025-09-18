@@ -7,5 +7,5 @@ profile_picture:
 ---
 
 <p>
-	Welcome to my personal website. I recently completed my PhD at ETH Zürich in Biomedical Data Science, during which I explored different options 
+	Hi, my name is Louis. I recently completed my <strong>PhD at ETH Zürich</strong> in the <a target="_blank" href="https://bmds.ethz.ch/">Biomedical Data Science lab</a>. In the last four years, I focused on traumatic spinal cord injury: I <strong>developed and benchmarked prediction models</strong> for recovery outcomes, explored <strong>potential biomarkers</strong> of injury severity, and investigated <strong>uses cases</strong> for both <strong>in clinical trials</strong>.
 </p>
